@@ -1,5 +1,5 @@
 # Channel
-`Channel`是一个读写数据的双向通道，可以从`Channel`中读入数据和写入数据，从通道中读写数据我们需要一个缓冲器也就是`Buffer`，数据将从`Channel`中读取写入到`Buffer`中，`Buffer`中的数据可以写入到Channel中.
+`Channel`是一个读写数据的双向通道，可以从`Channel`中读入数据和写入数据，从通道中读写数据我们需要一个缓冲器也就是`Buffer`，数据将从`Channel`中读取写入到`Buffer`中，`Buffer`中的数据可以写入到Channel中。
 ![Channel&Buffer关系](images/Channel&Buffer关系.png)
 ## 常见的Channel
 在`Java NIO` 中主要有以下`Channel`的实现类
