@@ -49,7 +49,6 @@ class ChessPieceUnitFactory {
         return pieces.get(chessPieceId);
     }
 }
-}
 
 class ChessPiece{
     private ChessPieceUnit chessPieceUnit;
