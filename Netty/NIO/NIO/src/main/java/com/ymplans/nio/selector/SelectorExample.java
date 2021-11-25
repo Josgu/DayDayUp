@@ -1,4 +1,4 @@
-package com.ymplans.selector;
+package com.ymplans.nio.selector;
 
 import java.io.IOException;
 import java.nio.channels.*;

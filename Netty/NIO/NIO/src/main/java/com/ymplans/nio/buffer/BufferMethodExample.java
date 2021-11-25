@@ -1,4 +1,4 @@
-package com.ymplans.buffer;
+package com.ymplans.nio.buffer;
 
 import java.nio.ByteBuffer;
 

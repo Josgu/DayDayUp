@@ -1,4 +1,4 @@
-package com.ymplans.selector.socket;
+package com.ymplans.nio.selector.socket;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
-import java.util.HashSet;
 import java.util.Iterator;
 
 /**

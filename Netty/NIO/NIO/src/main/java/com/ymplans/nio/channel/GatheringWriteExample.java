@@ -1,4 +1,4 @@
-package com.ymplans.channel;
+package com.ymplans.nio.channel;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

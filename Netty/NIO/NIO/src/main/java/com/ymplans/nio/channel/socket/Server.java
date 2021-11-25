@@ -1,4 +1,4 @@
-package com.ymplans.channel.socket;
+package com.ymplans.nio.channel.socket;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
