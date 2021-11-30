@@ -40,7 +40,13 @@ public class EventLoopTest {
         // 4. 执行定时任务
         nioEventLoopGroup.next().scheduleAtFixedRate(() ->{
             log.debug("ok2");
-        }, 0, 10, TimeUnit.SECONDS);
+        }, 0, 1, TimeUnit.SECONDS);
         log.debug("main");
+        try {
+            Thread.sleep(1100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        nioEventLoopGroup.shutdownGracefully();
     }
 }

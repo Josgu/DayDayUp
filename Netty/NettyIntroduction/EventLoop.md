@@ -82,6 +82,12 @@ nioEventLoopGroup.next().scheduleAtFixedRate(() ->{
 }, 0, 10, TimeUnit.SECONDS);
 ```
 
+### 关闭EventLoop
+EventLoopGroup是一个线程组，可以使用其提供的shutdownGracefully来优雅关闭。
+```Java
+nioEventLoopGroup.shutdownGracefully();
+```
+
 ### 分工细化
 首先看一段服务端的新实现
 ```Java
